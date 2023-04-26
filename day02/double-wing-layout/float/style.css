@@ -24,3 +24,7 @@
 .right {
     margin-left: -200px;
 }
+
+.center-wrapper {
+    padding: 0 200px;
+}
