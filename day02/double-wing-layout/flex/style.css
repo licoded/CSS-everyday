@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.child {
+    height: 100vh;
+}
+
+.center {
+    width: 100%;
+}
+
+.left,
+.right {
+    width: 200px;
+}
