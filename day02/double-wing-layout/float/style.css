@@ -16,3 +16,11 @@
 .right {
     width: 200px;
 }
+
+.left {
+    margin-left: -100%;
+}
+
+.right {
+    margin-left: -200px;
+}
