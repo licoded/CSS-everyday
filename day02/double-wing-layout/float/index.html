@@ -7,13 +7,18 @@
     <title>双飞翼布局--使用float实现</title>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <script src="../../../library/js/tailwindcss/tailwindcss-3.3.1.js"></script>
+    <script>
+        tailwind.config = {
+            prefix: 'tw-',
+        };
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <div class="container">
-    <div class="child bg-green-500">中</div>
-    <div class="child bg-blue-400">左</div>
-    <div class="child bg-red-400">右</div>
+    <div class="child tw-bg-green-500">中</div>
+    <div class="child tw-bg-blue-400">左</div>
+    <div class="child tw-bg-red-400">右</div>
    </div> 
 </body>
 </html>
