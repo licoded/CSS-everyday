@@ -5,4 +5,14 @@
 
 .child {
     height: 100vh;
+    float: left;
+}
+
+.center {
+    width: 100%;
+}
+
+.left,
+.right {
+    width: 200px;
 }
