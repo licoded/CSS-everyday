@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.container {
+    display: flex;
+}
+
 .child {
     height: 100vh;
 }
