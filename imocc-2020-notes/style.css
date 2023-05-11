@@ -29,8 +29,8 @@ section.wrapper > div {
 }
 
 section.wrapper > div{
-    height: 30px;
-    width: 30px;
+    height: 36px;
+    width: 36px;
     border-radius: 50%;
     background-color: #464141;
 }
