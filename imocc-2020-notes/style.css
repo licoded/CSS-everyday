@@ -3,7 +3,9 @@ section.wrapper {
     justify-content: space-between;
     height: 150px;
     width: 150px;
+    padding: 10px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 section.wrapper > div:first-child {
@@ -26,7 +28,7 @@ section.wrapper > div {
     width: 50px;
 }
 
-section.wrapper > div > .dot {
+section.wrapper > div{
     height: 30px;
     width: 30px;
     border-radius: 50%;
