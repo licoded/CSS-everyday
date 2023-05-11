@@ -1,0 +1,34 @@
+section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+section.wrapper > div:first-child {
+    align-self: start;
+}
+
+section.wrapper > div:nth-child(2) {
+    align-self: center;
+}
+
+section.wrapper > div:last-child {
+    align-self: end;
+}
+
+section.wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+section.wrapper > div > .dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #464141;
+}
